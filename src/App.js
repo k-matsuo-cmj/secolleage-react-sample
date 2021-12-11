@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Hello from './Hello';
+// import Hello from './Hello';
+import NameList from './NameList'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Hello name="山田" />
+        {/* <Hello name="山田" /> */}
+        <NameList />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
